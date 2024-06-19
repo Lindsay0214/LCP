@@ -23,6 +23,5 @@ function dropWhile(array, predicate) {
 
 
 
-dropWhile([1, 2, 3, 4, 5, 6], (value) => value < 4);
 dropWhile([0, 1, 2], (value) => value < 5);
 dropWhile([0, 6, 1, 2], (value) => value < 5)
